@@ -1,0 +1,15 @@
+config_schema:
+  type: object
+  required: []
+  properties: {}
+server_name: time-mcp
+command: npx
+args:
+  - -y
+  - .
+env: []
+description: A Model Context Protocol server that provides time-related functionalities, such as current time
+owner: Standard MCP
+license: Apache-2.0
+package: time-mcp
+vendor: Anthropic
